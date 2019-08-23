@@ -13,10 +13,9 @@
 
 // code example for Window Binding
 function lamp(){
-    console.log(this.lampblue);
+    console.log(this);
 }
 lamp();
-const lampOverhead = "🛋";
 // Principle 2
 
 // code example for Implicit Binding
